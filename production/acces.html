@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="../vendors/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendors/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="../vendors/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <title>Acess</title>
+</head>
+
+<body>
+<div class="page-header">
+    <h3>MetroGym</h3>
+</div>
+<div class="container-fluid">
+<div class="row">
+    <div class="col-md-3">
+            <select class="drop_acess_choise">
+                <option><a href="#">Select acces level</a></option>
+                <option><a href="#">Administrator</a></option>
+                <option><a href="#">Principal</a></option>
+                <option><a href="#">Trainer</a></option>
+                <option><a href="#">Marketer</a></option>
+                <option><a href="#">System Administrator</a></option>
+            </select>
+        <div class="container">
+            <button>Add new</button>
+            <button>Edit/Delete</button>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <ul class="admin_acces">
+            <h5>News ticker:</h5>
+            <li><input type="checkbox" name="option1" value="o1">Create post</li>
+            <li><input type="checkbox" name="option2" value="o2">Edit post</li>
+            <li><input type="checkbox" name="option3" value="o3">Delete post</li>
+        </ul>
+        <ul class="admin_acces">
+            <h5>Administration:</h5>
+            <li><input type="checkbox" name="option1" value="i1">Edit client profile</li>
+            <li><input type="checkbox" name="option2" value="i2">User registration</li>
+            <li><input type="checkbox" name="option3" value="i3">Delete user</li>
+            <li><input type="checkbox" name="option4" value="i4">Add/Edit/Delete user status</li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <ul class="admin_acces">
+            <h5>Training:</h5>
+            <li><input type="checkbox" name="option1" value="g1">Create basic training</li>
+            <li><input type="checkbox" name="option2" value="g2">Delete basic training</li>
+            <li><input type="checkbox" name="option3" value="g3">Edit basic training</li>
+            <li><input type="checkbox" name="option4" value="g4">History of basic training</li>
+            <li><input type="checkbox" name="option5" value="g5">Personal training history</li>
+            <li><input type="checkbox" name="option6" value="g6">Create personal training</li>
+            <li><input type="checkbox" name="option7" value="g7">Delete personal training</li>
+            <li><input type="checkbox" name="option8" value="g8">Edit personal training</li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+            <div class="menu_section">
+                <ul class="nav side-menu">
+                    <li><a href="index.html"><i class="fa fa-home"></i> General </a>
+                        <ul class="nav child_menu">
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="acces.html">Access </a></li>
+                            <li><a href="newsticker.html">News ticker</a></li>
+                            <li><a href="training.html">Training </a></li>
+                            <li><a href="exersices.html">Exercises</a></li>
+                            <li><a href="clientbase.html">Сlient base</a></li>
+                            <li><a href="employees.html">Employees</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--Scripts-->
+<script src="../vendors/jquery/jquery-3.1.1.js" type="text/javascript"></script>
+<script src="../vendors/bootstrap-3.3.7-dist/js/bootstrap.min.js" type="text/javascript"></script>
+
+</body>
+</html>
